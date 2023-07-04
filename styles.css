@@ -6,7 +6,7 @@ body {
 
 .header {
     display: flex;
-    padding-inline: 10px;
+    padding-inline: 1vw;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
@@ -25,7 +25,7 @@ body {
     font-weight: 700;
     line-height: 0px;
     letter-spacing: 1.74px;
-    padding-left: 10px;
+    padding-left: 0.5vw;
     }
 .navbar ul {
     display: flex;
@@ -52,7 +52,6 @@ body {
 }
 
 .login {
-    margin-left: 10px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -266,8 +265,7 @@ body {
   }
   
   .grid-item {
-    padding: 1px;
-    margin: 10px;
+    margin: 5px;
   }
   
      .item1 {
@@ -297,7 +295,7 @@ body {
 
   .item6 {
     grid-column: 5;
-    grid-row: 3;
+    grid-row: 2;
   }  
 
   .find-us {
@@ -331,13 +329,14 @@ body {
 }
 
 .find-items {
-    height: 300px;
+    height: 20vw;
    display: flex;
    margin-top: 5vw;
+   width:50vw;
 }
 
 footer {
-    margin-top: 10vw;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     margin-inline: 5vw;
